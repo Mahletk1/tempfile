@@ -1,0 +1,49 @@
+/* CSS EDIT File Main Page - Edit to column width
+
+.col-lg-8 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+*/
+
+/* CSS EDIT SignUp Logo */
+
+.sign .sign-header .logo img {
+  height: 30px;
+}
+
+/* CSS EDIT Download page */
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 20px;
+  }
+}
+/*
+     FILE ARCHIVED ON 01:01:44 Jan 26, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:44:38 Jan 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.083
+  cdx.remote: 0.165
+  esindex: 0.012
+  LoadShardBlock: 103.338 (6)
+  PetaboxLoader3.datanode: 127.778 (7)
+  load_resource: 416.111
+  PetaboxLoader3.resolve: 360.638
+*/
