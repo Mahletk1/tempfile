@@ -846,6 +846,25 @@
     </footer>
     <script>
       "use strict";
+      const config = {
+        lang: "en",
+        baseURL:
+          "https://web.archive.org/web/20230311092651/https://tempfile.io",
+        countryCode: "US",
+        primaryColor: "#660F93",
+        secondaryColor: "#3C0359",
+        alertActionTitle: "Are you sure?",
+        alertActionText: "Confirm that you want do this action",
+        alertActionConfirmButton: "Confirm",
+        alertActionCancelButton: "Cancel",
+        copiedToClipboardSuccess: "Copied to clipboard",
+        LoadingOverlayColor: "#660F93",
+      };
+      let configObjects = JSON.stringify(config),
+        getConfig = JSON.parse(configObjects);
+    </script>
+    <script>
+      "use strict";
       const uploadConfig = {
         translation: {
           formatSizes: ["B", "KB", "MB", "GB", "TB"],
@@ -901,7 +920,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
-      src="assets/js/indexjs/https%253A/www.googletagmanager.com/gtag/js@id=G-S9MT8S8KMR"
+      src="../../../20230311092651js_/https%253A/www.googletagmanager.com/gtag/js@id=G-S9MT8S8KMR"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -911,7 +930,6 @@
       gtag("js", new Date());
       gtag("config", "G-S9MT8S8KMR");
     </script>
-
     <script src="assets/js/indexjs/https%253A/tempfile.io/assets/vendor/libs/jquery/jquery.min.js"></script>
     <script src="assets/js/indexjs/https%253A/tempfile.io/assets/vendor/libs/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="assets/js/indexjs/https%253A/tempfile.io/assets/vendor/libs/jqueryloadingoverlay/loadingoverlay.min.js"></script>
